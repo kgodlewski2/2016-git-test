@@ -4,8 +4,9 @@ $(function () {
         { firstName: "Andrzej", lastName: "Kielcz" }
         { firstName: "Janusz", lastName: "Cebula" }
         { firstName: "Ździchu", lastName: "Pompa" }
-        { firstName: "Juliusz", lastName: "Cebula" }
-        { firstName: "Ździchu2", lastName: "Pompa" }
+        { firstName: "Juliusz", lastName: "Cebuliusz" }
+        { firstName: "Bogdan", lastName: "Rudy" }
+        {firstName: "Zbyniu", lastName: "Kraweznik" }
     ];
 
     patientsList.forEach(function (patient) {
