@@ -6,7 +6,7 @@ $(function () {
         { firstName: "Ździchu", lastName: "Pompa" }
         { firstName: "Juliusz", lastName: "Cebuliusz" }
         { firstName: "Bogdan", lastName: "Rudy" }
-        {firstName: "Zbyniu", lastName: "Kraweznik" }
+        {firstName: "Zbyniu", lastName: "Kraweznik" };
     var doctorsList = [
         { firstName: "Mieciu", lastName: "Paliwko" },
         { firstName: "Barbara", lastName: "Węgiel" }
@@ -15,7 +15,7 @@ $(function () {
     ];
 
     doctorsList.forEach(function (doctor) {
-        addDoctor(doctor);
+        addDoctor(doctor);addDoctor(doctor);addDoctor(doctor);addDoctor(doctor);
     })
 });
 
