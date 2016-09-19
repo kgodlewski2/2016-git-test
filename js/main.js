@@ -1,21 +1,22 @@
 $(function () {
-    var patientsList = [
-        { firstName: "Adam", lastName: "Nowak" },
-        { firstName: "Andrzej", lastName: "Kielcz" }
-        { firstName: "Janusz", lastName: "Cebula" },
-        { firstName: "Ździchu", lastName: "Pompa" }
+    var doctorsList = [
+        { firstName: "Mieciu", lastName: "Paliwko" },
+        { firstName: "Barbara", lastName: "Węgiel" }
+        { firstName: "Stefan", lastName: "Kamień" },
+        { firstName: "Porucznik", lastName: "Borewicz" }
     ];
 
-    patientsList.forEach(function (patient) {
-        addPatient(patient);
+    doctorssList.forEach(function (doctor) {
+        addDoctor(doctor);
     })
 });
 
- // fix end lines
-function addPatient(patient) {
-    $("#patients-list")
+
+ // add doctors
+function addDoctor(doctors) {
+    $("#doctors-list")
         .append(
         $("<li/>")
-            .text(patient.firstName + " " + patient.lastName)
+            .text(doctor.firstName + " " + patient.lastName)
         );
 }
