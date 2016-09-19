@@ -1,4 +1,12 @@
 $(function () {
+    var patientsList = [
+        { firstName: "Adam", lastName: "Nowak" },
+        { firstName: "Andrzej", lastName: "Kielcz" }
+        { firstName: "Janusz", lastName: "Cebula" }
+        { firstName: "Ździchu", lastName: "Pompa" }
+        { firstName: "Juliusz", lastName: "Cebuliusz" }
+        { firstName: "Bogdan", lastName: "Rudy" }
+        {firstName: "Zbyniu", lastName: "Kraweznik" }
     var doctorsList = [
         { firstName: "Mieciu", lastName: "Paliwko" },
         { firstName: "Barbara", lastName: "Węgiel" }
