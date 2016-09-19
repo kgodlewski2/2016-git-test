@@ -10,6 +10,7 @@ $(function () {
     })
 });
 
+ // fix end lines
 function addPatient(patient) {
     $("#patients-list")
         .append(
