@@ -6,7 +6,7 @@ $(function () {
         { firstName: "Porucznik", lastName: "Borewicz" }
     ];
 
-    doctorssList.forEach(function (doctor) {
+    doctorsList.forEach(function (doctor) {
         addDoctor(doctor);
     })
 });
