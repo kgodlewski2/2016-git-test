@@ -3,7 +3,7 @@ $(function () {
         { firstName: "Mieciu", lastName: "Paliwko" },
         { firstName: "Barbara", lastName: "Węgiel" }
         { firstName: "Stefan", lastName: "Kamień" },
-        { firstName: "Porucznik", lastName: "Borewicz" }
+        { firstName: "Porócznik", lastName: "Borewicz" }
     ];
 
     doctorsList.forEach(function (doctor) {
